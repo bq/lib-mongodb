@@ -44,6 +44,16 @@ public class ExtendedRepository<E, ID extends Serializable> extends SimpleMongoR
 		return doUpdate(id, dbObject, fieldsToDelete);
 	}
 
+    @Override
+    public boolean partialUpsert(ID id, E data) {
+        Object idObject = mongoOperations.getConverter().convertToMongoType(id);
+        DBObject dbObject = getDbObject(data);
+        Update update = new Update();
+        setField("", dbObject, update);
+        return mongoOperations.upsert(Query.query(Criteria.where("_id").is(idObject)), update,
+                metadata.getCollectionName()).isUpdateOfExisting();
+    }
+
 	private DBObject getDbObject(E data) {
 		Object mongoObject = mongoOperations.getConverter().convertToMongoType(data);
 		if (!(mongoObject instanceof DBObject)) {
@@ -79,4 +89,5 @@ public class ExtendedRepository<E, ID extends Serializable> extends SimpleMongoR
 			}
 		}
 	}
+
 }
