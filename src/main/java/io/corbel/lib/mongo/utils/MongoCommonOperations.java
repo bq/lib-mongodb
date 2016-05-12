@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.utils;
+package com.bq.corbel.lib.mongo.utils;
 
 import java.util.ArrayList;
 import java.util.List;

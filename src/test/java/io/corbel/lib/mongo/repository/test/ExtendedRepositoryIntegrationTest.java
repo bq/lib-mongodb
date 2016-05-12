@@ -1,9 +1,9 @@
-package io.corbel.lib.mongo.repository.test;
+package com.bq.corbel.lib.mongo.repository.test;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 
-import io.corbel.lib.mongo.config.DefaultMongoConfiguration;
-import io.corbel.lib.mongo.config.MongoCommonRepositoryFactoryBean;
+import com.bq.corbel.lib.mongo.config.DefaultMongoConfiguration;
+import com.bq.corbel.lib.mongo.config.MongoCommonRepositoryFactoryBean;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;
@@ -17,7 +17,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import io.corbel.lib.mongo.repository.test.ExtendedRepositoryIntegrationTest.IoC;
+import com.bq.corbel.lib.mongo.repository.test.ExtendedRepositoryIntegrationTest.IoC;
 
 /**
  * Use this test to verify repository using a local mongo database.

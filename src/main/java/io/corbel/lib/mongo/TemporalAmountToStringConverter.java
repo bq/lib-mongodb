@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo;
+package com.bq.corbel.lib.mongo;
 
 import java.time.Duration;
 import java.time.Period;

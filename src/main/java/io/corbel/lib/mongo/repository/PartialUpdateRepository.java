@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.repository;
+package com.bq.corbel.lib.mongo.repository;
 
 import java.io.Serializable;
 

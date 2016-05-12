@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo;
+package com.bq.corbel.lib.mongo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

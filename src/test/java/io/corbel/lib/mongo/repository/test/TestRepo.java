@@ -1,8 +1,8 @@
-package io.corbel.lib.mongo.repository.test;
+package com.bq.corbel.lib.mongo.repository.test;
 
 import org.springframework.data.repository.CrudRepository;
 
-import io.corbel.lib.mongo.repository.PartialUpdateRepository;
+import com.bq.corbel.lib.mongo.repository.PartialUpdateRepository;
 
 /**
  * @author Alexander De Leon

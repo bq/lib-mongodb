@@ -1,10 +1,10 @@
-package io.corbel.lib.mongo.repository.test;
+package com.bq.corbel.lib.mongo.repository.test;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import io.corbel.lib.mongo.repository.impl.ExtendedRepository;
+import com.bq.corbel.lib.mongo.repository.impl.ExtendedRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;

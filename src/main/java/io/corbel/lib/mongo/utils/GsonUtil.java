@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.utils;
+package com.bq.corbel.lib.mongo.utils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

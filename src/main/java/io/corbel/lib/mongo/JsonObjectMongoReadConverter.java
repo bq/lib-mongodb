@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo;
+package com.bq.corbel.lib.mongo;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.repository.test;
+package com.bq.corbel.lib.mongo.repository.test;
 
 import org.springframework.data.annotation.Id;
 

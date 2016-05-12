@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.config;
+package com.bq.corbel.lib.mongo.config;
 
 import java.net.UnknownHostException;
 import java.util.ArrayList;
