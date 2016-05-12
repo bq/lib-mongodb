@@ -1,8 +1,8 @@
-package io.corbel.lib.mongo.config;
+package com.bq.corbel.lib.mongo.config;
 
 import java.io.Serializable;
 
-import io.corbel.lib.mongo.repository.impl.ExtendedRepository;
+import com.bq.corbel.lib.mongo.repository.impl.ExtendedRepository;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.support.MongoRepositoryFactory;

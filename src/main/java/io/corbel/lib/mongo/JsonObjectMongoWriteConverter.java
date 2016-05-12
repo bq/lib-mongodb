@@ -1,8 +1,8 @@
-package io.corbel.lib.mongo;
+package com.bq.corbel.lib.mongo;
 
 import java.util.Map.Entry;
 
-import io.corbel.lib.mongo.utils.GsonUtil;
+import com.bq.corbel.lib.mongo.utils.GsonUtil;
 import com.google.gson.*;
 import com.google.gson.internal.LazilyParsedNumber;
 import org.springframework.core.convert.converter.Converter;

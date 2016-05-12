@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.index;
+package com.bq.corbel.lib.mongo.index;
 
 import java.util.concurrent.TimeUnit;
 

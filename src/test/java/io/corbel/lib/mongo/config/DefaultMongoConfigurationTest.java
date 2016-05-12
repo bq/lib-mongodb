@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.config;
+package com.bq.corbel.lib.mongo.config;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.doReturn;

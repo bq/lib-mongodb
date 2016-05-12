@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.utils;
+package com.bq.corbel.lib.mongo.utils;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 

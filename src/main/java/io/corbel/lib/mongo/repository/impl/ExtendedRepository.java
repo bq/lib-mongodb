@@ -1,4 +1,4 @@
-package io.corbel.lib.mongo.repository.impl;
+package com.bq.corbel.lib.mongo.repository.impl;
 
 import java.io.Serializable;
 import java.util.Set;
@@ -13,7 +13,7 @@ import org.springframework.util.Assert;
 
 import com.mongodb.DBObject;
 import com.mongodb.WriteResult;
-import io.corbel.lib.mongo.repository.PartialUpdateRepository;
+import com.bq.corbel.lib.mongo.repository.PartialUpdateRepository;
 
 /**
  * @author Alexander De Leon
