@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.support.MongoRepositoryFactory;
 import org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean;
+import org.springframework.data.repository.core.RepositoryInformation;
 import org.springframework.data.repository.core.RepositoryMetadata;
 import org.springframework.data.repository.core.support.RepositoryFactorySupport;
 
@@ -38,8 +39,8 @@ public class MongoCommonRepositoryFactoryBean<R extends MongoRepository<T, I>, T
 
 		@SuppressWarnings({ "rawtypes", "unchecked" })
 		@Override
-		protected Object getTargetRepository(RepositoryMetadata metadata) {
-			return new ExtendedRepository(getEntityInformation(metadata.getDomainType()), mongoOperations);
+		protected Object getTargetRepository(RepositoryInformation repositoryInformation) {
+			return new ExtendedRepository(getEntityInformation(repositoryInformation.getDomainType()), mongoOperations);
 		}
 	}
 

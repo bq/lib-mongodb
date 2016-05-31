@@ -27,7 +27,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    	<spring.version>4.1.7.RELEASE</spring.version>
+    	<spring.version>4.2.6.RELEASE</spring.version>
     </properties>
 
     <scm>
@@ -54,7 +54,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-mongodb</artifactId>
-            <version>1.6.1.RELEASE</version>
+            <version>1.9.1.RELEASE</version>
             <exclusions>
             	<exclusion>
             		<groupId>org.springframework</groupId>
