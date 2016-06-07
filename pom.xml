@@ -5,7 +5,7 @@
 
     <groupId>com.bq.corbel.lib</groupId>
     <artifactId>mongodb</artifactId>
-    <version>0.9.1-SNAPSHOT</version>
+    <version>0.9.1</version>
 
     <name>lib-mongodb</name>
 
@@ -34,7 +34,7 @@
         <connection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/lib-mongodb</connection>
         <developerConnection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/lib-mongodb</developerConnection>
         <url>https://github.com/bq/lib-mongodb</url>
-        <tag>HEAD</tag>
+        <tag>mongodb-0.9.1</tag>
     </scm>
 
     <distributionManagement>
